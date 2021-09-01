@@ -1,5 +1,5 @@
 import { HashRouter, Route } from "react-router-dom";
-import router from "./pages/routes";
+import routes from "./pages/routes";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 import News from "./pages/News/News";
@@ -10,8 +10,8 @@ function App() {
     return (
         <HashRouter>
             <Navigation />
-            <Route path={router.home} exact={true} component={Home} />
-            <Route path={router.news} component={News} />
+            <Route path={routes.home} exact={true} component={Home} />
+            <Route path={routes.news} component={News} />
         </HashRouter>
     );
 }
