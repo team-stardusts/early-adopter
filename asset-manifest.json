@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/early-adopter/static/css/main.8e55a14c.chunk.css",
-    "main.js": "/early-adopter/static/js/main.b0490649.chunk.js",
-    "main.js.map": "/early-adopter/static/js/main.b0490649.chunk.js.map",
+    "main.js": "/early-adopter/static/js/main.c1519aea.chunk.js",
+    "main.js.map": "/early-adopter/static/js/main.c1519aea.chunk.js.map",
     "runtime-main.js": "/early-adopter/static/js/runtime-main.95840827.js",
     "runtime-main.js.map": "/early-adopter/static/js/runtime-main.95840827.js.map",
     "static/css/2.818011ed.chunk.css": "/early-adopter/static/css/2.818011ed.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.385ac9bf.chunk.js",
     "static/css/main.8e55a14c.chunk.css",
-    "static/js/main.b0490649.chunk.js"
+    "static/js/main.c1519aea.chunk.js"
   ]
 }
