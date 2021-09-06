@@ -9,7 +9,7 @@ function Navigation() {
             <Container className="d-flex align-items-end">
                 <Navbar.Brand>
                     <Link className="mainNavbar__brand" to={routes.home}>
-                        StarDust
+                        StarDusts
                     </Link>
                 </Navbar.Brand>
                 <Nav className="d-flex justify-content-end">
