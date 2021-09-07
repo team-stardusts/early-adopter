@@ -8,12 +8,14 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+    const COMPANY_NAME = "StarDusts";
+
     return (
         <HashRouter>
-            <Navigation />
+            <Navigation companyName={COMPANY_NAME} />
             <Route path={routes.home} exact={true} component={Home} />
             <Route path={routes.news} component={News} />
-            <Footer />
+            <Footer companyName={COMPANY_NAME} />
         </HashRouter>
     );
 }

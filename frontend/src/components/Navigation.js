@@ -3,13 +3,13 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Navigation.css";
 import routes from "../pages/routes";
 
-function Navigation() {
+function Navigation({ companyName }) {
     return (
         <Navbar className="mainNavbar">
             <Container className="d-flex align-items-end">
                 <Navbar.Brand>
                     <Link className="mainNavbar__brand" to={routes.home}>
-                        StarDusts
+                        {companyName}
                     </Link>
                 </Navbar.Brand>
                 <Nav className="d-flex justify-content-end">

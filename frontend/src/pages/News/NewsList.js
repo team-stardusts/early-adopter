@@ -4,7 +4,7 @@ import NewsCard from "../../components/NewsCard";
 
 function NewsList() {
     return (
-        <Container className="w-75">
+        <Container style={{ width: "85%" }}>
             <div className="mt-5">
                 <h5>
                     <b>New EARLYADOPTER</b>
@@ -14,6 +14,7 @@ function NewsList() {
                 {news.map((item) => (
                     <NewsCard
                         key={item.id}
+                        id={item.id}
                         title={item.subject}
                         img={item.mainImg}
                         editor={item.editor}
