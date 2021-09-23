@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
-import routes from "../pages/routes";
+import { routes } from "../routes";
 import "./NewsCard.css";
 
 function NewsCard({ id, title, img, editor, date }) {

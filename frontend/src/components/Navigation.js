@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Navigation.css";
-import routes from "../pages/routes";
+import { routes } from "../routes";
 
 function Navigation({ companyName }) {
     return (

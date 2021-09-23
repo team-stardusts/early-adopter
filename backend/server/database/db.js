@@ -2,7 +2,7 @@ import "../../config/env-config";
 import mongoose from "mongoose";
 import News from "./models/NewsSchema";
 
-const MONGO_URL = process.env.MONGO_URL;
+const { MONGO_URL } = process.env;
 
 mongoose.connect(MONGO_URL, {
     useNewUrlParser: true,
